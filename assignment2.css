@@ -1,0 +1,69 @@
+*{
+	box-sizing: border-box;
+}
+
+div.sections {
+	position : relative;
+	background : orange;
+	padding : 0px;
+	margin : 1%;
+	border :2px solid black;
+
+}
+
+p{
+	padding : 2%;
+}
+
+@media (min-width: 992px) {
+	.sections {
+		width: 31.3%;
+		float: left;
+		padding: 3px;
+		
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.sections {
+		width: 48%;
+		float: left;
+		padding: 3px; 
+		
+	}
+	.lastSection{
+		width: 98%;
+		padding: 3px;
+	}
+}
+
+h1{
+	text-align: center;
+}
+
+p{
+	clear : both;
+}
+
+.title{
+	position: relative;
+	float : right;
+	text-align: center; 
+	width : 100px ;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	border-left :2px solid black;
+	border-bottom :2px solid black;
+}
+
+.title1{
+	background: pink;
+}
+
+.title2{
+	background: grey;
+}
+
+.title3{
+	background: yellow;
+}
